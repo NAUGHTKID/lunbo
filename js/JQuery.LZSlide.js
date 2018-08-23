@@ -68,6 +68,7 @@
         $(this).each(function(i,ele){
             slide(ele,options)
         })
+        return this;
     }
 
 })(jQuery)
